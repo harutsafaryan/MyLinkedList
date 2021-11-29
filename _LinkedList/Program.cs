@@ -9,6 +9,7 @@ namespace MyLinkedList
             _LinkedList<int> linkedList = new _LinkedList<int>();
             linkedList.AddFirst(10);
             linkedList.AddFirst(15);
+            linkedList.AddLast(5);
             linkedList.AddAfter(linkedList.head, 30);
             linkedList.AddBefore(linkedList.head, 40);
 
